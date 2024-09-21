@@ -1,0 +1,94 @@
+@import '../../app.scss';
+@import '../../variables.scss';
+
+.about {
+    height: 100vh;
+    width: 100vw;
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+
+        .left {
+            // padding: 5px;
+            // background: aqua;
+            max-height: 100vh;
+            overflow-y: hidden;
+            flex: 1;
+
+            img {
+                height: 100vh;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 0 15px 15px 0;
+            }
+        }
+
+        .right {
+            padding: 70px 100px;
+            overflow-y: scroll;
+            flex: 1;
+            scrollbar-width: none;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            h1 {
+                text-transform: uppercase;
+            }
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                .heading {
+                    font-size: 5rem;
+                    font-weight: 900;
+                    color: red;
+                    text-align: center;
+                }
+
+                .sub {
+                    text-align: center;
+                }
+
+                .desc {
+                    line-height: 1.5rem;
+                    font-size: 1.05rem;
+                }
+            }
+        }
+    }
+
+    @include mobile {
+
+        .wrapper {
+            flex-direction: column;
+            gap: 30px;
+
+            .left {
+                img {
+                    height: unset;
+                }
+            }
+
+            .right {
+                padding: 0 50px 50px 50px;
+                text-align: center;
+                
+                .text {
+                    gap: 5px;
+                    text-align: center;
+                    
+                    .heading {
+                        text-align: center;
+                        font-size: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}

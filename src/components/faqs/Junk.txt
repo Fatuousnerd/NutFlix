@@ -1,0 +1,122 @@
+<div className="faqs">
+                <div className="wrapper">
+                    <div className="left">
+                        <img src="./wallpaper8.jfif" alt="" />
+                    </div>
+
+                    <div className="right">
+                        <h1 className="title">Frequently Asked Questions(<span>FAQs</span>)</h1>
+                        <div className="container">
+                            <ul>
+                                <li>What is NetFlixx?</li>
+                                <li>What is NetFlixx?</li>
+                                <li>What is NetFlixx?</li>
+                                <li>What is NetFlixx?</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+.faqs {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    position: relative;
+    top: 100px;
+
+    .wrapper {
+        display: flex;
+        gap: 80px;
+        padding: 10px 25px;
+
+        .left {
+            padding: 10px 25px;
+            // background: red;
+            // width: 50vw;
+            height: calc(100vh - 100px);
+
+            img {
+                width: 100%;
+                height: 95%;
+                object-fit: contain;
+                border-radius: 30px;
+            }
+        }
+
+        .right {
+            font-size: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            // padding-top: 70px;
+            // background: goldenrod;
+
+            .title {
+
+                span {
+                    font-size: inherit;
+                }
+            }
+
+            .container {
+                // background: cadetblue;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+
+                ul {
+                    // background: firebrick;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 50px;
+                    padding: 25px;
+
+                    li {
+                        background: var(--secondary-color);
+                        padding: 5px 15px;
+                        border-radius: 5px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    @include mobile {
+        top: unset;
+        height: 100vh;
+
+        .wrapper {
+            flex-direction: column;
+            gap: 25px;
+
+            .left {
+                height: unset;
+            }
+
+            .right {
+                font-size: 1rem;
+
+                .title {
+                    text-align: center;
+                }
+
+                .container {
+
+                    ul {
+                        gap: 25px;
+                        padding: 12.5px;
+
+                        li {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

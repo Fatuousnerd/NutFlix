@@ -1,0 +1,19 @@
+.accordion {
+    button {
+        background: cadetblue;
+
+        span {
+            font-size: 1.25rem;
+        }
+    }
+
+    .active {
+        grid-row: 1fr;
+        opacity: 1;
+    }
+
+    .inactive {
+        grid-row: 0fr;
+        opacity: 0;
+    }
+}

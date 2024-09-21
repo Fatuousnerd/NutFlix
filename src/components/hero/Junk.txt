@@ -1,0 +1,29 @@
+<h1 className="title">
+              Think, Make, Solve.
+            </h1>
+
+            <div className="whatido">
+              <img src="./line.png" />
+              <p className="sub">What I Do</p>
+            </div>
+
+            <p className="desc">We enjoy creating delightful, human-centered digital experiences.</p>
+
+            <a href="">
+              <button>Learn More</button>
+            </a>
+
+
+French:	Bonjour |	Bon après-midi |	Bonsoir
+
+Arabic:	صباح الخير (Sabah al-khayr)	| مساء الخير (Masa' al-khayr)	 | مساء الخير (Masa' al-khayr)
+
+Swahili:	Habari za asubuhi |	Habari za mchana |	Habari za jioni
+
+Hindi:	सुप्रभात (Suprabhat)	| नमस्ते (Namaste) |	शुभ संध्या (Shubh Sandhya)
+
+Spanish:	Buenos días |	Buenas tardes |	Buenas noches
+
+Japanese:	おはようございます (Ohayō gozaimasu)	| こんにちは (Konnichiwa) |	こんばんは (Konbanwa)
+
+Chinese:	早上好 (Zǎoshang hǎo) |	下午好 (Xiàwǔ hǎo) |	晚上好 (Wǎnshàng hǎo)

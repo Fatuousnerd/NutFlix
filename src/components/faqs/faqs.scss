@@ -1,0 +1,58 @@
+@import '../../app.scss';
+@import '../../variables.scss';
+
+.faqs {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+
+    .wrap {
+        display: flex;
+        gap: 80px;
+        padding: 10px 25px;
+
+        .left {
+            // padding: 10px 25px;
+            // background: cadetblue;
+            height: calc(100vh - 100px);
+            flex: 1;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 30px;
+            }
+        }
+
+        .right {
+            font-size: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            flex: 1;
+            // padding-top: 70px;
+            // background: goldenrod;
+        }
+    }
+
+    @include mobile{
+        top: 20px;
+        .wrap{
+            flex-direction: column;
+            gap: 50px;
+
+            .left{
+                flex: 1;
+                img{
+                    height: 300px;
+                }
+            }
+            
+            .right{
+                flex: 3;
+            }
+        }
+    }
+}

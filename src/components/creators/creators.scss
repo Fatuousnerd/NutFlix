@@ -1,0 +1,36 @@
+@import '../../app.scss';
+@import '../../variables.scss';
+
+.wrapper {
+    // background: goldenrod;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+
+    .text {
+        // background: cadetblue;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+
+        .heading {
+            font-size: 2.5rem;
+        }
+    }
+
+    .show {
+        // background: palegreen;
+        flex: 2;
+    }
+
+    @include mobile {
+        position: relative;
+        top: 80px;
+    }
+}
