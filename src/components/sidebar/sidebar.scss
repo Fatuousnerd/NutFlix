@@ -15,7 +15,7 @@
         top: 0;
         left: 0;
         bottom: 0;
-        width: 400px;
+        width: 300px;
         background: #fff;
 
         @include mobile {
@@ -37,6 +37,18 @@
             a {
                 text-align: left;
                 font-size: 40px;
+            }
+
+            .tgl{
+                width: 100px;
+                height: 5px;
+                // background: red;
+                // position: relative;
+                
+
+                button{
+                    position: relative;
+                }
             }
         }
     }

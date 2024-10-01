@@ -127,15 +127,16 @@
 
             .form {
 
-                .yap {
-                    display: none;
-                }
 
                 left: 2vw;
                 bottom: 25vh;
                 width: 340px;
                 padding: 20px;
                 gap: 10px;
+
+                .yap {
+                    display: none;
+                }
 
                 .ac-form {
 

@@ -7,7 +7,7 @@ const Acc = [
         desc: "Follow for 🔞 exclusive content! Daily dose of #NSFW clips.Don't miss out! We do not own any of the content! DM for removal!Biz/ Ad / Promo in DMs",
         posts: "200",
         follows: "100",
-        lnk: "https://x.com/leakedflixx",
+        lnk: "https://x.com/NuttFlixxxx",
         tg: "https://t.me/+t3NAlkuKGMNjOTE0",
     },
     {

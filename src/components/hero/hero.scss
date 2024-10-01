@@ -5,13 +5,19 @@
     width: 100vw;
     height: 110vh;
     position: relative;
-    background: url(./Media/Home.png), linear-gradient(179deg, rgba(0,0,0,0.75) 99%, rgba(0,0,0,0.5) 99%);
+    background: url(./Media/Hero.png), linear-gradient(179deg, rgba(0,0,0,0.75) 99%, rgba(0,0,0,0.5) 99%);
     background-size: contain;
     background-blend-mode: darken;
     // backdrop-filter: brightness(30%);
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include mobile{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
     .wrapper {
         // background: red;

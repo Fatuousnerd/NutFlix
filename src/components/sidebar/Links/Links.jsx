@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import ThemeToggle from "../../../utils/ThemeTogggle";
 
 const variants = {
     open: {
@@ -36,6 +37,9 @@ const Links = () => {
             {items.map(item => (
                 <motion.a href={`/${item}`} key={item} variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: .95 }}>{item}</motion.a>
             ))}
+            <motion.div className="tgl" variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: .95 }}>
+                <ThemeToggle />
+            </motion.div>
         </motion.div>
     )
 }
