@@ -16,7 +16,7 @@ const Live = () => {
             }, 1000);
             return () => clearInterval(interval);
         } else{
-            history.push('/live')
+           // history.push('/live')
             liver.click();
             // console.log("Done");
             
@@ -29,7 +29,7 @@ const Live = () => {
             <div className="live">
                 {/* <iframe src="https://nutflixx.chaturbate.com" frameborder="0"></iframe> */}
                 <div className="redirect">
-                    Redirecting to <a id='liver' href="https://nutflixx.chatrubate.com" style={{color:"var(--main-color)", fontWeight:"850"}}> NutFlixx Live Cams </a>in <span id="tm"> {value} </span> seconds.
+                    Redirecting to <a id='liver' href="https://nutflixx.chaturbate.com" style={{color:"var(--main-color)", fontWeight:"850"}}> NutFlixx Live Cams </a>in <span id="tm"> {value} </span> seconds.
                 </div>
             </div>
         </>
