@@ -65,6 +65,7 @@ const Footer = () => {
                         <li><a href="/creators">Creators</a></li>
                         <li><a href="/contact">Contact Us</a></li>
                         <li><a href="/faqs">FAQs</a></li>
+                        <li><a href="http://www.pornlib.com">Sex Videos</a></li>
                     </ul>
                 </div>
             </div>
