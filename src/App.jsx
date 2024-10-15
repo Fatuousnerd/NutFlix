@@ -12,6 +12,8 @@ import Privacy from "./components/privacy/Privacy";
 import ThemeProvider from "./utils/ThemeContext";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Live from './components/live/Live';
+import Test from './components/test/Test';
+import Tester from './components/test/Tester';
 
 const App = () => {
   return <>
@@ -30,6 +32,8 @@ const App = () => {
             <Route path='/contact' element={<Contact />} />
             <Route path='/faqs' element={<Faqs />} />
             <Route path='/privacy' element={<Privacy />} />
+            <Route path='/test' element={<Test />} />
+            <Route path='/tester' element={<Tester />} />
           </Routes>
         </div>
       </Router>

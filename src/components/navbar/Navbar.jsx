@@ -33,7 +33,7 @@ const Navbar = () => {
           <li><a href="/about">About Us</a></li>
           <li><a href="/pages" style={{ gap: "5px" }}><X /> Pages</a></li>
           <li><a href="/merch">Merch</a></li>
-          <li><a href="/creators">Creators</a></li>
+          {/* <li><a href="/creators">Creators</a></li> */}
           <li><a href="/live">Live Cams</a></li>
           {/* <li><a href="/creators">Gallery</a></li> */}
           <li><a href="/contact">Contact Us</a></li>
