@@ -1,41 +1,68 @@
-// variables.scss
-
 :root {
-    --main-color-light: #E50914;
-    --secondary-color-light: #B81D24;
-    --text-color-light: #221F1F;
-    --sectext-color-light: #737373;
-    --button-color-light: #E50914;
-    --background-light: #f8fff8;
-    
-    --main-color-dark: #E50914;
-    --secondary-color-dark: #B81D24;
-    --text-color-dark: #FFFFFF;
-    --sectext-color-dark: #B3B3B3;
-    --button-color-dark: #E50914;
-    --background-dark: #0b1215;
-    
-    // --main-color-dark: #0b1250;
-    // --secondary-color-dark: #1a1a1a;
-    // --text-color-dark: #fff;
-    // --sectext-color-dark: red;
-  }
-  
-  body.light {
-    --main-color: var(--main-color-light);
-    --secondary-color: var(--secondary-color-light);
-    --text-color: var(--text-color-light);
-    --sectext-color: var(--sectext-color-light);
-    --button-color: var(--button-color-light);
-    --background: var(--background-light);
-  }
-  
-  body.dark {
-    --main-color: var(--main-color-dark);
-    --secondary-color: var(--secondary-color-dark);
-    --text-color: var(--text-color-dark);
-    --sectext-color: var(--sectext-color-dark);
-    --button-color: var(--button-color-dark);
-    --background: var(--background-dark);
-  }
-  
+    --MainBgColorLight: #f8fff8;
+    --MainTextColorLight: #221F1F;
+    --SecBgColorLight: #B81D24;
+    --SecTextColorLight: #737373;
+    --HTextColorLight: #E50914;
+    --ContrastTextColorLight: #E50914;
+
+    --DarkBgColor: #0b1215;
+    --DarkTextColor: #FFFFFF;
+    --SecDarkBgColor: #B81D24;
+    --SecDarkTextColor: #B3B3B3;
+    --HDarkTextColor: #E50914;
+    --ContrastDarkTextColor: #E50914;
+}
+
+
+body.light {
+    --MainBgColor: var(--MainBgColorLight);
+    --MainTextColor: var(--MainTextColorLight);
+    --SecBgColor: var(--SecBgColorLight);
+    --SecTextColor: var(--MainTextColorLight);
+    --HTextColor: var(--HTextColorLight);
+    --ContrastTextColor: var(--ContrastTextColorLight);
+}
+
+body.dark {
+    --MainBgColor: var(--DarkBgColor);
+    --MainTextColor: var(--DarkTextColor);
+    --SecBgColor: var(--SecDarkBgColor);
+    --SecTextColor: var(--SecDarkTextColor);
+    --HTextColor: var(--HDarkTextColor);
+    --ContrastTextColor: var(--ContrastDarkTextColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $MainBgColor:  #f0f8ff;
+// $MainTextColor: #101720;
+// $SecBgColor: #fffff0;
+// $SecTextColor:  #0B1215;
+// $HTextColor:  orange;
+// $ContrastTextColor: #FAF9F6;
+// $DarkBgColor: red;
+// $DarkTextColor: red;
+// $SecDarkBgColor: red;
+// $mainBgColor: red;

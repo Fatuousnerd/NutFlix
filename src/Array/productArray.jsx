@@ -1,0 +1,32 @@
+export const productArray = [
+    {
+        id: 1,
+        image:"./Media/red-bikinis-but-the-more-you-swipe-the-bigger-the-boobs-get-v0-4700slbxv36c1.webp",
+        productName:"Viagra",
+        category:"Male Enhancement",
+        description:"Viagra: Male Enhancement. Last Longer In Bed",
+        sale:"55",
+        price:"50",
+        lnk:"https://google.com",
+    },
+    {
+        id: 2,
+        image:"./Media/red-bikini-v0-9hkbusyzgpfd1.webp",
+        productName:"Viagra",
+        category:"Male Enhancement",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae accusantium tempore.",
+        sale:"55",
+        price:"50",
+        lnk:"",
+    },
+    {
+        id: 3,
+        image:"./Media/Hero.png",
+        productName:"Viagra",
+        category:"Male Enhancement",
+        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae accusantium tempore.",
+        sale:"55",
+        price:"50",
+        lnk:"",
+    },
+]
