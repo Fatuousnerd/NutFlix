@@ -13,9 +13,9 @@ const Shop = () => {
                     <h1>Template Name</h1>
                 ))} */}
                 {productArray.map((product) => (
-                    <Link to={product.lnk}>
+                    <Link to={product.lnk} target='_blank'>
 
-                        <div key={product._id} className="bg-[--HTextColor] w-[270px] h-[410px] flex flex-col p-[15px] rounded-[5px] text-left cursor-pointer " /*onClick={() => handleOpen(product._id)} */>
+                        <div key={product._id} className="bg-[--HTextColor] w-[300px] h-[420px] flex flex-col p-[15px] rounded-[5px] text-left cursor-pointer " /*onClick={() => handleOpen(product._id)} */>
                             <img src={product.image} alt="Product Preview" className='w-full min-h-[225px] object-cover rounded-[2.5px] mb-[20px] ' />
                             <div className="justify-between flex flex-col h-full">
 
@@ -31,7 +31,7 @@ const Shop = () => {
                                         {product.sale && <p className='font-light text-md line-through'>${product.sale}</p>}
                                         <p className='font-extrabold text-2xl'>${product.price}</p>
                                     </div>
-                                    <Link to={product.lnk} className='flex items-center content-center gap-2 ' ><ShoppingBasket /></Link>
+                                    <Link to={product.lnk} target='_blank' className='flex items-center content-center gap-2 ' ><ShoppingBasket /></Link>
                                 </div>
 
                             </div>
