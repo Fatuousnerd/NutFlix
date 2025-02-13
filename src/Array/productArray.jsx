@@ -1,7 +1,7 @@
 export const productArray = [
     {
         id: 1,
-        image:"./Media/red-bikinis-but-the-more-you-swipe-the-bigger-the-boobs-get-v0-4700slbxv36c1.webp",
+        image:"./Media/download.jpg",
         productName:"SpicyChat AI",
         category:"NSFW Chatbot",
         description:"Unlock personalized, discreet conversations with advanced AI chatbots—join now!",

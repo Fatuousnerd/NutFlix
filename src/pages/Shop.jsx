@@ -15,7 +15,7 @@ const Shop = () => {
                 {productArray.map((product) => (
                     <Link to={product.lnk} target='_blank'>
 
-                        <div key={product._id} className="bg-[--HTextColor] w-[300px] h-[420px] flex flex-col p-[15px] rounded-[5px] text-left cursor-pointer " /*onClick={() => handleOpen(product._id)} */>
+                        <div key={product._id} className="bg-[--HTextColor] w-[300px] h-[440px] flex flex-col p-[15px] rounded-[5px] text-left cursor-pointer " /*onClick={() => handleOpen(product._id)} */>
                             <img src={product.image} alt="Product Preview" className='w-full min-h-[225px] object-cover rounded-[2.5px] mb-[20px] ' />
                             <div className="justify-between flex flex-col h-full">
 
